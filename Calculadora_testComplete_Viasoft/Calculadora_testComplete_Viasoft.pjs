@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{9BD5F15D-CFBD-49DA-B33A-2CD19A0346A9}">
+	<children>
+		<child name="Calculadora_testComplete_Viasoft" key="{6812AE40-15B9-4178-AADD-2CD21CAF744D}" path="Calculadora_testComplete_Viasoft\Calculadora_testComplete_Viasoft.mds" />
+	</children>
+	<testItems key="{D0057D93-01CE-4361-83FD-CAF691B3984E}">
+		<children>
+			<testItem key="{6812AE40-15B9-4178-AADD-2CD21CAF744D}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{E8421BCF-C081-4DB3-9186-A72E9DE2235C}" />
+	<analysis key="{1CA48488-2423-448E-B641-1A930A745538}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

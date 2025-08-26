@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="StepDefinitions" key="{95629721-D8F4-448D-A00B-B93B1A314C35}" path="StepDefinitions.js" />
+		<child name="EventsHooks" key="{56E901BE-6D87-468A-8B5C-2A625D34A494}" path="EventsHooks.js" />
+		<child name="BDD" key="{711C5840-EA62-4EBF-BB91-8A24B727C771}" path="BDD.js" />
+		<child name="runner" key="{8364CB56-5D49-4A45-8E67-D075838B23B7}" path="runner.js" />
+	</children>
+</Root>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="item 0">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack end" type="I" value="8"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45894.6772851736"/>
+			<Prp name="remarks" type="S" value="Name = Calculator, Index = -1"/>
+			<Prp name="message" type="S" value="The process &quot;Calculator&quot; was not found."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="stack beginning" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="item 5">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="stacktext" type="S" value="RunFeature"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack end" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45894.6771678125"/>
+			<Prp name="remarks" type="S" value="Name = Calculator, Index = -1"/>
+			<Prp name="message" type="S" value="The process &quot;Calculator&quot; was not found."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45894.6772859375"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Execução finalizada!"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45894.677050081"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Calculadora aberta!"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="stacktext" type="S" value="RunFeature"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="units">
+			<Prp name="unit 1" type="S" value="{95629721-D8F4-448D-A00B-B93B1A314C35}"/>
+			<Prp name="unit 0" type="S" value="{8364CB56-5D49-4A45-8E67-D075838B23B7}"/>
+			<Prp name="unit 2" type="S" value="{711C5840-EA62-4EBF-BB91-8A24B727C771}"/>
+		</Node>
+		<Node name="item 12">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="item 10">
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="43"/>
+			<Prp name="stacktext" type="S" value="RunStep"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 4">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack end" type="I" value="5"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45894.6771681713"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Keys&quot; method or property of the &quot;Window(&quot;CalcFrame&quot;)&quot; object that does not exist."/>
+			<Prp name="message" type="S" value="The object &quot;Window(&quot;CalcFrame&quot;)&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="stack beginning" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="item 14">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="stacktext" type="S" value="RunFeature"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack end" type="I" value="14"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45894.6772859259"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Resultado incorreto. Esperado 8 mas obtido Non-existent object"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="stack beginning" type="I" value="12"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="43"/>
+			<Prp name="stacktext" type="S" value="RunStep"/>
+		</Node>
+		<Node name="item 13">
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="43"/>
+			<Prp name="stacktext" type="S" value="RunStep"/>
+		</Node>
+		<Node name="item 7">
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="43"/>
+			<Prp name="stacktext" type="S" value="RunStep"/>
+		</Node>
+		<Node name="item 3">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="item 6">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45894.6770427083"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Iniciando execução BDD..."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="item 9">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45894.6770445718"/>
+			<Prp name="remarks" type="S" value="The process ID is 28968."/>
+			<Prp name="message" type="S" value="The application &quot;C:\Windows\WinSxS\amd64_microsoft-windows-calc_31bf3856ad364e35_10.0.26100.1882_none_455c758bcadc235e\calc.exe&quot; started."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="item 4">
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="43"/>
+			<Prp name="stacktext" type="S" value="RunStep"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45894.6771681944"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Soma executada: 5 + 3"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="item 8">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="stacktext" type="S" value="RunFeature"/>
+		</Node>
+		<Node name="item 11">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="stacktext" type="S" value="RunFeature"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack end" type="I" value="11"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45894.677285625"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WndCaption&quot; method or property of the &quot;Window(&quot;Static&quot;, &quot;&quot;, 1)&quot; object that does not exist."/>
+			<Prp name="message" type="S" value="The object &quot;Window(&quot;Static&quot;, &quot;&quot;, 1)&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="stack beginning" type="I" value="9"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

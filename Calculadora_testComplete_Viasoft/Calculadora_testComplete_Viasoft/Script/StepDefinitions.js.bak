@@ -1,0 +1,79 @@
+﻿// step_definitions.js
+//USEUNIT BDD
+
+function waitCalculator() {
+  var p = Sys.WaitProcess("ApplicationFrameHost", 15000);
+  if (!p.Exists)
+    Log.Error("Calculadora não foi iniciada!");
+}
+
+function digitName(d) {
+  var map = {
+    "0":"num0Button","1":"num1Button","2":"num2Button","3":"num3Button","4":"num4Button",
+    "5":"num5Button","6":"num6Button","7":"num7Button","8":"num8Button","9":"num9Button"
+  };
+  return map[d];
+}
+
+function clickDigitString(numStr) {
+  for (var i = 0; i < numStr.length; i++) {
+    var ch = numStr.charAt(i);
+    var btn = Aliases.calc.FindChild("AutomationId", digitName(ch), 100, true);
+    btn.Click();
+  }
+}
+
+function clickOperation(op) {
+  var map = {
+    addition: "plusButton",
+    subtraction: "minusButton",
+    multiplication: "multiplyButton",
+    division: "divideButton"
+  };
+  var btn = Aliases.calc.FindChild("AutomationId", map[op], 100, true);
+  btn.Click();
+}
+
+function clickEquals() {
+  var btn = Aliases.calc.FindChild("AutomationId", "equalButton", 100, true);
+  btn.Click();
+}
+
+function readResult() {
+  var res = Aliases.calc.FindChild("AutomationId", "CalculatorResults", 100, true);
+  var txt = res.WndCaption || res.wText || res.Text;
+  return txt.replace(/[^\d-]/g, "");
+}
+
+// --- Steps ---
+
+Given(/^the user opens the Calculator application$/i, function () {
+  TestedApps.calc.Run();
+  waitCalculator();
+});
+
+When(/^the user enters the number (\d+)$/i, function (numero) {
+  clickDigitString(numero);
+});
+
+When(/^the user presses the (addition|subtraction|multiplication|division) button$/i, function (op) {
+  clickOperation(op);
+});
+
+When(/^the user presses the equals button$/i, function () {
+  clickEquals();
+});
+
+Then(/^the displayed result should be (\d+)$/i, function (esperado) {
+  var resultado = readResult();
+  if (resultado == esperado) {
+    Log.Checkpoint("OK! Resultado: " + resultado);
+  } else {
+    Log.Error("Falha", "Esperado: " + esperado + " | Obtido: " + resultado);
+  }
+});
+
+Then(/^the user closes the Calculator$/i, function () {
+  var p = Sys.Process("ApplicationFrameHost");
+  if (p.Exists) p.Terminate();
+});

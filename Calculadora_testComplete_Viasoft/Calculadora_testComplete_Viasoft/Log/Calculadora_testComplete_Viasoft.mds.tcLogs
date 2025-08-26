@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45894.6738247106"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{E83F61A9-61BC-4DF4-AA92-8FF6C6CE412C}"/>
+				<Prp name="nameofroot" type="S" value="Calculadora_testComplete_Viasoft"/>
+				<Prp name="relpath" type="S" value="25_08_2025_16_10_18_455\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45894.6738645023"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{B3F4F7E1-FFDD-43AC-954F-6CE0D36DD624}"/>
+				<Prp name="nameofroot" type="S" value="Calculadora_testComplete_Viasoft"/>
+				<Prp name="relpath" type="S" value="25_08_2025_16_10_21_894\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45894.6755098611"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{269B07C4-AC50-4CC6-A86D-A5DDEE432388}"/>
+				<Prp name="nameofroot" type="S" value="Calculadora_testComplete_Viasoft"/>
+				<Prp name="relpath" type="S" value="25_08_2025_16_12_44_52\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45894.6767196991"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0BA276BF-85DC-4035-BAED-8692F5FB4276}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [runner\RunFeature]"/>
+				<Prp name="relpath" type="S" value="25_08_2025_16_14_28_582\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45894.6770405093"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{861D64DD-5319-471A-A928-3E7D85336B01}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [runner\RunFeature]"/>
+				<Prp name="relpath" type="S" value="25_08_2025_16_14_56_300\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45894.679844456"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{CFB3DEB2-1B67-412B-BA39-F5C23AF47E7C}"/>
+				<Prp name="nameofroot" type="S" value="Calculadora_testComplete_Viasoft"/>
+				<Prp name="relpath" type="S" value="25_08_2025_16_18_58_561\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45894.6800158681"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{CC8C874E-8ECF-4B95-9559-842F61104BE8}"/>
+				<Prp name="nameofroot" type="S" value="Calculadora_testComplete_Viasoft"/>
+				<Prp name="relpath" type="S" value="25_08_2025_16_19_13_371\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0007">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45894.6800829167"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{ED7E8D00-28D8-4354-9EFC-8A5628786D8A}"/>
+				<Prp name="nameofroot" type="S" value="Calculadora_testComplete_Viasoft"/>
+				<Prp name="relpath" type="S" value="25_08_2025_16_19_19_164\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0008">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45894.6801410995"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{34D0195D-04FD-4429-B496-4829AF3F508A}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [runner\RunFeature]"/>
+				<Prp name="relpath" type="S" value="25_08_2025_16_19_24_191\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0009">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45894.6803603125"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5CE8E3A9-8678-476C-8B40-1CE3D620B189}"/>
+				<Prp name="nameofroot" type="S" value="Calculadora_testComplete_Viasoft"/>
+				<Prp name="relpath" type="S" value="25_08_2025_16_19_43_131\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0010">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45894.6804649884"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{FF1A8AB8-760B-4295-9ABE-79F0F58FC132}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [runner\RunFeature]"/>
+				<Prp name="relpath" type="S" value="25_08_2025_16_19_52_175\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0011">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45894.681899456"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{9E7B7756-D331-431E-8C0E-F42454B414C0}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [runner\RunFeature]"/>
+				<Prp name="relpath" type="S" value="25_08_2025_16_21_56_113\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

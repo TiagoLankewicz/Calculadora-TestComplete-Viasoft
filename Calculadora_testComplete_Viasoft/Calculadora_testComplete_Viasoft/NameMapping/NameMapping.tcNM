@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{F88C174A-B5EF-4B12-B1B6-FDE635D7083C}">
+				<TypeInfo Item0="{7033527B-A864-4314-9970-04A84421354C}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="Microsoft_WindowsCalculator" Key="{2E504468-A183-46EA-B142-7B147AB38302}">
+						<TypeInfo Item0="{33BF8B39-A020-4CC7-B776-09510EE5D0D0}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Microsoft.WindowsCalculator" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="Calculadora" Key="{71E38934-820F-44F2-A977-CEC93EABE67B}">
+								<Image FileName="-813730538" Left="9" Top="1" Right="409" Bottom="666" />
+								<TypeInfo Item0="{9936812D-5A2D-43A6-BD39-2BECAA5FC9E9}" />
+								<Properties>
+									<Property Name="FrameworkId">
+										<Value Value="XAML" />
+									</Property>
+									<Property Name="ClassName">
+										<Value Value="Windows.UI.Core.CoreWindow" />
+									</Property>
+									<Property Name="LocalizedControlType">
+										<Value Value="janela" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="Calculadora" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="NavView" Key="{5CAA6815-63BC-4A6A-AC90-1DD3C06DDB99}">
+										<Image FileName="-813730538" Left="9" Top="41" Right="409" Bottom="666" />
+										<TypeInfo Item0="{99CB922F-2C3B-49B8-AD35-FE339FF7C424}" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="XAML" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="0" Type="0" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="personalizado" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="NavView" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="LandmarkTarget" Key="{BB27A163-C634-423E-9FF4-9882C30E4C76}">
+												<Image FileName="-813730538" Left="9" Top="51" Right="409" Bottom="661" />
+												<TypeInfo Item0="{99CB922F-2C3B-49B8-AD35-FE339FF7C424}" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="XAML" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="LandmarkTarget" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="grupo" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="LandmarkTarget" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Teclado_num_rico" Key="{EC3D88B9-315F-42CB-BAD7-5B2F0732D8B4}">
+														<Image FileName="-813730538" Left="14" Top="398" Right="306" Bottom="660" />
+														<TypeInfo Item0="{99CB922F-2C3B-49B8-AD35-FE339FF7C424}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="NamedContainerAutomationPeer" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="grupo" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Teclado_numérico" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="Um" Key="{E4295616-B612-4EC9-B9DE-5D9F38CC7281}">
+																<Image FileName="-813730538" Left="14" Top="530" Right="110" Bottom="594" />
+																<TypeInfo Item0="{99CB922F-2C3B-49B8-AD35-FE339FF7C424}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="XAML" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="Button" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="botão" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="Um" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="Dois" Key="{A7F93375-DD03-4461-BA09-D019695E21A1}">
+																<Image FileName="1311259711" Left="111" Top="530" Right="207" Bottom="594" />
+																<TypeInfo Item0="{99CB922F-2C3B-49B8-AD35-FE339FF7C424}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="XAML" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="Button" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="botão" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="Dois" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="Zero" Key="{197F803D-ECCE-4D69-8FDF-152A37E106A1}">
+																<Image FileName="1311259711" Left="111" Top="597" Right="207" Bottom="660" />
+																<TypeInfo Item0="{99CB922F-2C3B-49B8-AD35-FE339FF7C424}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="XAML" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="Button" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="botão" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="Zero" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="Tr_s" Key="{B7E30375-C0E5-498A-A59C-EBD31261FAAC}">
+																<Image FileName="1547883210" Left="210" Top="530" Right="306" Bottom="594" />
+																<TypeInfo Item0="{99CB922F-2C3B-49B8-AD35-FE339FF7C424}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="XAML" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="Button" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="botão" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="Três" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="Quatro" Key="{00EDBEE6-BAA1-4224-8289-07C011CEFAA5}">
+																<Image FileName="2135655401" Left="14" Top="465" Right="110" Bottom="528" />
+																<TypeInfo Item0="{99CB922F-2C3B-49B8-AD35-FE339FF7C424}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="XAML" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="Button" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="botão" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="Quatro" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="Cinco" Key="{37835F39-6DA1-4F4B-BBB4-6A07A9A40ED8}">
+																<Image FileName="1311259711" Left="111" Top="465" Right="207" Bottom="528" />
+																<TypeInfo Item0="{99CB922F-2C3B-49B8-AD35-FE339FF7C424}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="XAML" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="Button" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="botão" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="Cinco" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="Seis" Key="{DBB08304-F3F9-4503-9DF2-027A45C03859}">
+																<Image FileName="1311259711" Left="210" Top="465" Right="306" Bottom="528" />
+																<TypeInfo Item0="{99CB922F-2C3B-49B8-AD35-FE339FF7C424}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="XAML" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="Button" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="botão" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="Seis" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="Sete" Key="{CED10123-5C9D-41C0-986D-9AD8FFCA5149}">
+																<Image FileName="-348421160" Left="14" Top="398" Right="110" Bottom="461" />
+																<TypeInfo Item0="{99CB922F-2C3B-49B8-AD35-FE339FF7C424}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="XAML" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="Button" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="botão" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="Sete" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="Oito" Key="{756CE841-83A3-4394-BEE4-ED1B566F1ECD}">
+																<Image FileName="1377749644" Left="111" Top="398" Right="207" Bottom="461" />
+																<TypeInfo Item0="{99CB922F-2C3B-49B8-AD35-FE339FF7C424}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="XAML" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="Button" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="botão" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="Oito" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="Nove" Key="{EC44B81B-C92D-4BE8-BCDC-28988A1BF707}">
+																<Image FileName="533833764" Left="210" Top="398" Right="306" Bottom="461" />
+																<TypeInfo Item0="{99CB922F-2C3B-49B8-AD35-FE339FF7C424}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="XAML" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="Button" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="botão" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="Nove" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="Operadores_padr_o" Key="{6229086B-A714-4DDE-BDE5-ECF77BF9BE6F}">
+														<Image FileName="1311259711" Left="308" Top="332" Right="404" Bottom="660" />
+														<TypeInfo Item0="{99CB922F-2C3B-49B8-AD35-FE339FF7C424}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="NamedContainerAutomationPeer" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="grupo" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Operadores_padrão" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="Dividir_por" Key="{7C71EAD0-4E2B-4AD4-99FF-6B9AC991095F}">
+																<Image FileName="1311259711" Left="308" Top="332" Right="404" Bottom="395" />
+																<TypeInfo Item0="{99CB922F-2C3B-49B8-AD35-FE339FF7C424}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="XAML" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="Button" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="botão" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="Dividir_por" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="Multiplicar_por" Key="{40BCE159-F9FA-4327-86EE-E68BC6DB810D}">
+																<Image FileName="533833764" Left="308" Top="399" Right="404" Bottom="462" />
+																<TypeInfo Item0="{99CB922F-2C3B-49B8-AD35-FE339FF7C424}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="XAML" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="Button" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="botão" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="Multiplicar_por" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="Menos" Key="{73F5C5DA-38A9-47DE-B4F3-45E1C7496968}">
+																<Image FileName="1311259711" Left="308" Top="464" Right="404" Bottom="527" />
+																<TypeInfo Item0="{99CB922F-2C3B-49B8-AD35-FE339FF7C424}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="XAML" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="Button" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="botão" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="Menos" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="Mais" Key="{C1157AC0-5BC6-436E-822D-BEA87FA6326C}">
+																<Image FileName="1311259711" Left="308" Top="530" Right="404" Bottom="593" />
+																<TypeInfo Item0="{99CB922F-2C3B-49B8-AD35-FE339FF7C424}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="XAML" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="Button" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="botão" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="Mais" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="Igual_a" Key="{341D77EA-6D71-4F1F-9657-7F9B4A81128B}">
+																<Image FileName="-1672229276" Left="308" Top="596" Right="404" Bottom="660" />
+																<TypeInfo Item0="{99CB922F-2C3B-49B8-AD35-FE339FF7C424}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="XAML" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="Button" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="botão" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="Igual_a" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="Microsoft_WindowsCalculator" Owner="{2E504468-A183-46EA-B142-7B147AB38302}">
+			<Child Name="Calculadora" Owner="{71E38934-820F-44F2-A977-CEC93EABE67B}">
+				<Child Name="NavView" Owner="{5CAA6815-63BC-4A6A-AC90-1DD3C06DDB99}">
+					<Child Name="LandmarkTarget" Owner="{BB27A163-C634-423E-9FF4-9882C30E4C76}">
+						<Child Name="Teclado_num_rico" Owner="{EC3D88B9-315F-42CB-BAD7-5B2F0732D8B4}">
+							<Child Name="Um" Owner="{E4295616-B612-4EC9-B9DE-5D9F38CC7281}" />
+							<Child Name="Dois" Owner="{A7F93375-DD03-4461-BA09-D019695E21A1}" />
+							<Child Name="Zero" Owner="{197F803D-ECCE-4D69-8FDF-152A37E106A1}" />
+							<Child Name="Tr_s" Owner="{B7E30375-C0E5-498A-A59C-EBD31261FAAC}" />
+							<Child Name="Quatro" Owner="{00EDBEE6-BAA1-4224-8289-07C011CEFAA5}" />
+							<Child Name="Cinco" Owner="{37835F39-6DA1-4F4B-BBB4-6A07A9A40ED8}" />
+							<Child Name="Seis" Owner="{DBB08304-F3F9-4503-9DF2-027A45C03859}" />
+							<Child Name="Sete" Owner="{CED10123-5C9D-41C0-986D-9AD8FFCA5149}" />
+							<Child Name="Oito" Owner="{756CE841-83A3-4394-BEE4-ED1B566F1ECD}" />
+							<Child Name="Nove" Owner="{EC44B81B-C92D-4BE8-BCDC-28988A1BF707}" />
+						</Child>
+						<Child Name="Operadores_padr_o" Owner="{6229086B-A714-4DDE-BDE5-ECF77BF9BE6F}">
+							<Child Name="Dividir_por" Owner="{7C71EAD0-4E2B-4AD4-99FF-6B9AC991095F}" />
+							<Child Name="Multiplicar_por" Owner="{40BCE159-F9FA-4327-86EE-E68BC6DB810D}" />
+							<Child Name="Menos" Owner="{73F5C5DA-38A9-47DE-B4F3-45E1C7496968}" />
+							<Child Name="Mais" Owner="{C1157AC0-5BC6-436E-822D-BEA87FA6326C}" />
+							<Child Name="Igual_a" Owner="{341D77EA-6D71-4F1F-9657-7F9B4A81128B}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="CalculatorTests" key="{01773664-4560-42DF-8DC0-31F7BFD18A2C}" path="..\..\..\..\..\Downloads\calculator-automation-project\CalculatorTests.js" />
+		<child name="CustomOperations" key="{1C004458-50CF-42F4-A700-0A86CA62C43D}" path="..\..\..\..\..\Downloads\calculator-automation-project\CustomOperations.js" />
+		<child name="TestRunner" key="{13996E54-92EE-4623-8EA0-CBBAC7D88137}" path="..\..\..\..\..\Downloads\calculator-automation-project\TestRunner.js" />
+		<child name="BasicOperationsTestSuite" key="{1611EE75-DCE2-478B-8AD8-A9391937A5B5}" path="..\..\..\..\..\Downloads\calculator-automation-project\TestSuites\BasicOperationsTestSuite.js" />
+		<child name="TestUtils" key="{1B7A58C1-7AB7-4859-BFF5-C49929FF4E72}" path="..\..\..\..\..\Downloads\calculator-automation-project\Utils\TestUtils.js" />
+		<child name="TestConfig" key="{CA0D43A4-361D-4A1D-BFD3-4B2D9EBDC22C}" path="..\..\..\..\..\Downloads\calculator-automation-project\Config\TestConfig.js" />
+		<child name="TestHooks" key="{2742E8E7-03D0-417B-9738-B7C30A9A03F4}" path="..\..\..\..\..\Downloads\calculator-automation-project\Hooks\TestHooks.js" />
+		<child name="CalculatorPage" key="{8B56BAE0-E325-4B99-AF30-35287CB78107}" path="..\..\..\..\..\Downloads\calculator-automation-project\PageObjects\CalculatorPage.js" />
+	</children>
+</Root>
