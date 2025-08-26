@@ -1,0 +1,11 @@
+﻿function EventsHooks_OnStartTest(Sender){
+  TestedApps.calc.Run();
+}
+
+function EventsHooks_OnStopTest(Sender){
+  Sys.Process("Microsoft.WindowsCalculator").Terminate();
+}
+
+function EventsHooks_OnLogError(Sender, LogParams){
+  Sys.Process("Microsoft.WindowsCalculator").Terminate();
+}

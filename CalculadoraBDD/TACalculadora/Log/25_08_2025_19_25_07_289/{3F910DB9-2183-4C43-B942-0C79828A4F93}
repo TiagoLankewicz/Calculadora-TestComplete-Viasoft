@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="item 4">
+			<Prp name="line no" type="I" value="86"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="line no" type="I" value="166"/>
+			<Prp name="stacktext" type="S" value="runAndAssert"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="line no" type="I" value="86"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop current item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="date" type="D" value="45894.8100750579"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="stack end" type="I" value="4"/>
+			<Prp name="picture" type="S" value="Picture4.png"/>
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack beginning" type="I" value="4"/>
+		</Node>
+		<Node name="item 3">
+			<Prp name="line no" type="I" value="187"/>
+			<Prp name="stacktext" type="S" value="subtrair"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="line no" type="I" value="56"/>
+			<Prp name="stacktext" type="S" value="openCalculator"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 3">
+			<Prp name="line no" type="I" value="86"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="JavaScript runtime error.&#xA;&#xA;TypeError: Sys.Desktop.FindChild is not a function&#xA;&#xA;Error location:&#xA;Unit: &quot;CalculadoraBDD\TACalculadora\Script\CalculadoraScripts&quot;&#xA;Line: 87 Column: 27."/>
+			<Prp name="date" type="D" value="45894.8100728357"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="stack end" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="message" type="S" value="TypeError: Sys.Desktop.FindChild is not a function"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 4">
+			<Prp name="line no" type="I" value="86"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="45894.8100731713"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Projeto executado com sucesso. Aplicação será encerrada."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="line no" type="I" value="86"/>
+			<Prp name="stacktext" type="S" value="_waitForResultControl"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="The process ID is 20856."/>
+			<Prp name="date" type="D" value="45894.8100279051"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The application &quot;C:\Windows\System32\calc.exe&quot; started."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{7421B93C-A641-4F45-8C6D-C938EA45BD31}"/>
+			<Prp name="unit 1" type="S" value="{22CA3D86-D61F-408E-AA3B-FC7799C3D566}"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="45894.8100210995"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Projeto será iniciado."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="line no" type="I" value="40"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="45894.8100336111"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="TestedApps 'calc' não encontrado; usando fallback."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

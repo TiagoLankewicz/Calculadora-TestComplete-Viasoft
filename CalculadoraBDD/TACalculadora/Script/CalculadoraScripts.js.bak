@@ -1,0 +1,163 @@
+﻿// ============================================================================
+// CalculadoraScripts.js — TestComplete (JavaScript)
+// Substitua o conteúdo do arquivo existente por este.
+// Requer "TestedApps" com um item chamado "calc" (já existe no teu projeto).
+// ============================================================================
+
+/**
+ * Abre a Calculadora e retorna a raiz (janela/processo) para interação.
+ */
+function openCalculator() {
+  try {
+    // Lança a Calculadora (definida em TestedApps como "calc")
+    TestedApps.Items("calc").Run();
+
+    // Em versões modernas do Windows, a Calculadora é UWP hospedada no ApplicationFrameHost
+    // Tentamos localizar por diferentes nomes de processo e janelas.
+    var procNames = ["Calculator", "CalculatorApp", "ApplicationFrameHost", "calc"];
+    var p = null;
+
+    for (var i = 0; i < procNames.length; i++) {
+      p = Sys.WaitProcess(procNames[i], 10000);
+      if (p.Exists) {
+        break;
+      }
+    }
+
+    if (!p || !p.Exists) {
+      throw "Não foi possível encontrar o processo da Calculadora.";
+    }
+
+    // Se for ApplicationFrameHost, procuramos a janela do aplicativo "Calculadora".
+    // Caso contrário, usamos o próprio processo.
+    var wnd = null;
+    if (aqString.ToLower(p.ProcessName) == "applicationframehost") {
+      // Em PT-BR normalmente o título contém "Calculadora"; use wildcard
+      wnd = p.WaitWindow("*", "*Calculadora*", 10000);
+      if (!wnd.Exists) {
+        // Em alguns sistemas pode vir em inglês
+        wnd = p.WaitWindow("*", "*Calculator*", 5000);
+      }
+    } else {
+      // Tenta achar a janela principal do processo
+      wnd = p.WaitWindow("*", "*", 10000);
+    }
+
+    if (!wnd || !wnd.Exists) {
+      throw "Janela da Calculadora não encontrada.";
+    }
+
+    // Garante foco
+    wnd.Activate();
+
+    // Limpa qualquer entrada anterior
+    // 'Esc' limpa a entrada atual na Calculadora moderna
+    wnd.Keys("[Esc][Esc]");
+
+    return wnd;
+  } catch (e) {
+    Log.Error("Falha ao abrir a Calculadora: " + e);
+    throw e;
+  }
+}
+
+/**
+ * Busca o texto do resultado na Calculadora (UIA e fallbacks).
+ */
+function getResultText(wndRoot) {
+  // 1) UWP/WinUI: AutomationId = "CalculatorResults"
+  var obj = wndRoot.FindChild(["AutomationId"], ["CalculatorResults"], 5);
+  if (obj && obj.Exists) {
+    var name = obj.Name; // Em apps UWP, o valor vem no .Name
+    // Em PT-BR costuma vir como "Exibição é 12" — vamos extrair apenas os dígitos/sinais/ponto/vírgula
+    var m = name.match(/[-]?\d+[.,]?\d*/g);
+    if (m && m.length) {
+      return m[m.length - 1];
+    }
+    return name;
+  }
+
+  // 2) Fallback: procurar controles do tipo "Edit" ou "Static" que possam conter o resultado
+  var resultCandidate = wndRoot.FindChild(["ObjectType"], ["Edit"], 5);
+  if (!resultCandidate || !resultCandidate.Exists) {
+    resultCandidate = wndRoot.FindChild(["WndClass"], ["Static"], 5);
+  }
+  if (resultCandidate && resultCandidate.Exists) {
+    var txt = resultCandidate.wText || resultCandidate.Text || resultCandidate.Name;
+    if (txt) {
+      // Tenta extrair um número
+      var m2 = txt.match(/[-]?\d+[.,]?\d*/g);
+      if (m2 && m2.length) {
+        return m2[m2.length - 1];
+      }
+      return txt;
+    }
+  }
+
+  throw "Não foi possível obter o resultado na interface da Calculadora.";
+}
+
+/**
+ * Garante o fechamento da Calculadora (ALT+F4 como fallback).
+ */
+function closeCalculator(wndRoot) {
+  try {
+    if (wndRoot && wndRoot.Exists) {
+      // Primeiro tenta fechar de forma amigável
+      wndRoot.Close();
+      // Se não fechou, força com Alt+F4
+      if (wndRoot.Exists) {
+        wndRoot.Activate();
+        wndRoot.Keys("[Alt+F4]");
+      }
+    }
+  } catch (e) {
+    Log.Warning("Falha ao fechar a Calculadora: " + e);
+  }
+}
+
+/**
+ * Executa uma expressão via teclado e valida o resultado.
+ */
+function runAndAssert(keysSequence, expected) {
+  var wnd = openCalculator();
+  try {
+    Log.Message("Digitando sequência: " + keysSequence + " (esperado: " + expected + ")");
+    wnd.Activate();
+    wnd.Keys(keysSequence);
+    aqUtils.Delay(400); // pequena espera para o resultado estabilizar
+
+    var result = getResultText(wnd);
+    Log.Message("Resultado obtido: " + result);
+
+    // Normaliza vírgula/ponto para comparação numérica simples
+    var norm = function (s) { return String(s).replace(",", "."); };
+    aqObject.CheckProperty(norm(result), cmpEqual, norm(String(expected)));
+  } finally {
+    closeCalculator(wnd);
+  }
+}
+
+// ============================================================================
+// CENÁRIOS SOLICITADOS
+// ============================================================================
+
+function somar() {
+  // 7 + 5 = 12
+  runAndAssert("7+5=", 12);
+}
+
+function subtrair() {
+  // 9 - 3 = 6
+  runAndAssert("9-3=", 6);
+}
+
+function multiplicar() {
+  // 8 * 4 = 32
+  runAndAssert("8*4=", 32);
+}
+
+function dividir() {
+  // Exemplo adicional: 20 / 5 = 4
+  runAndAssert("2 0 / 5 =", 4);
+}

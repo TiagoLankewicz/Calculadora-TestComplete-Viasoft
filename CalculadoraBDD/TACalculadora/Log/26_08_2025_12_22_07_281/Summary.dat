@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="TypeError: Sys.Desktop.FindChild is not a function"/>
+							</Node>
+						</Node>
+						<Prp name="durationwithoutchildren" type="I" value="11366"/>
+						<Prp name="starttime" type="D" value="45895.515362338"/>
+						<Prp name="duration" type="I" value="11366"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1AEEAOAA2AEQARQA3ADAALQBCADAAOQA5AC0ANAA4ADcANgAtADkARQBEADMALQAwADUAQgA3ADUANABEADQAQQA2AEUARAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="name" type="S" value="Somar"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="TypeError: Sys.Desktop.FindChild is not a function"/>
+							</Node>
+						</Node>
+						<Prp name="durationwithoutchildren" type="I" value="5340"/>
+						<Prp name="starttime" type="D" value="45895.5155520602"/>
+						<Prp name="duration" type="I" value="5340"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBFADIANgA3AEMAMQBCADcALQBCAEIAMwAyAC0ANAA5AEIAQgAtADkAMgBCAEUALQBDADQAQgAxADQARgBDADUANQAxADIANwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="name" type="S" value="Multiplicar"/>
+					</Node>
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="TypeError: Sys.Desktop.FindChild is not a function"/>
+							</Node>
+						</Node>
+						<Prp name="durationwithoutchildren" type="I" value="7384"/>
+						<Prp name="starttime" type="D" value="45895.5156139468"/>
+						<Prp name="duration" type="I" value="7384"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCADMAMQBGAEYANAA4AEMALQAzAEEAMgAzAC0ANABGADMAMwAtADgANQA2AEEALQBCAEQARAA0ADMARgBDADcAMABCAEIARAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="name" type="S" value="Dividir"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="TypeError: Sys.Desktop.FindChild is not a function"/>
+							</Node>
+						</Node>
+						<Prp name="durationwithoutchildren" type="I" value="5007"/>
+						<Prp name="starttime" type="D" value="45895.5154939931"/>
+						<Prp name="duration" type="I" value="5007"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAxADQANQBCAEIANwBDAEIALQA3ADkAMQBBAC0ANABGADMANAAtADgAQgBCAEEALQA0AEIAMgAzADgAMgAwADEAMQA3ADIARAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="name" type="S" value="Subtrair"/>
+					</Node>
+				</Node>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="45895.515362338"/>
+				<Prp name="duration" type="I" value="29097"/>
+				<Prp name="failedtests" type="I" value="4"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="loadtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="TACalculadora"/>
+			</Node>
+		</Node>
+		<Prp name="name" type="S" value="CalculadoraBDD"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="tests" type="I" value="4"/>
+		<Prp name="key" type="S" value="{60D34490-3447-493F-8C90-C01556D393C7}"/>
+		<Prp name="loadtests" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="host" type="S" value="DESKTOP-AE9ES02"/>
+		<Prp name="stop" type="D" value="45895.5157004282"/>
+		<Prp name="failedtests" type="I" value="4"/>
+		<Prp name="starttime" type="D" value="45895.5153621181"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="user" type="S" value="lankt"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="testname" type="S" value="TACalculadora"/>
+	</Node>
+</Nodes>

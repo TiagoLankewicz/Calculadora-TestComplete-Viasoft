@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="EventsHooks" key="{7421B93C-A641-4F45-8C6D-C938EA45BD31}" path="EventsHooks.js" />
+		<child name="CalculadoraScripts" key="{22CA3D86-D61F-408E-AA3B-FC7799C3D566}" path="CalculadoraScripts.js" />
+	</children>
+</Root>

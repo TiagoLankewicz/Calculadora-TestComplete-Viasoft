@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{F73BA477-004B-4EB1-991C-1723BC44A606}">
+	<children>
+		<child name="TACalculadora" key="{BF00ACBF-E798-4E48-B22C-ED0CE7012A16}" path="TACalculadora\TACalculadora.mds" />
+	</children>
+	<testItems key="{3F108D90-317C-4CEB-AFB0-B83E00492D0E}">
+		<children>
+			<testItem key="{BF00ACBF-E798-4E48-B22C-ED0CE7012A16}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{4F2FF35D-A8CC-46A9-BEC6-C71BB44D1290}" />
+	<analysis key="{2C590162-0447-4B9F-B100-000E4C7B90A2}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

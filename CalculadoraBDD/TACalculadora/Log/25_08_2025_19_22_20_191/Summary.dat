@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Falha ao abrir a Calculadora: Janela da Calculadora não encontrada."/>
+							</Node>
+						</Node>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAyADMANABBADQAMQAyAEQALQA3ADUAQQAzAC0ANAAwAEUARgAtAEEAOAAyADUALQBGADIAOQAxADIAQwAwADEAOQA4AEUANQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="45894.807441713"/>
+						<Prp name="name" type="S" value="Subtrair"/>
+						<Prp name="duration" type="I" value="22618"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="durationwithoutchildren" type="I" value="22618"/>
+					</Node>
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error6">
+								<Prp name="msg" type="S" value="Falha ao abrir a Calculadora: Janela da Calculadora não encontrada."/>
+							</Node>
+							<Node name="error7">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The process &quot;Microsoft.WindowsCalculator&quot; was not found."/>
+							</Node>
+							<Node name="error4">
+								<Prp name="msg" type="S" value="The process &quot;Microsoft.WindowsCalculator&quot; was not found."/>
+							</Node>
+							<Node name="error3">
+								<Prp name="msg" type="S" value="The process &quot;Microsoft.WindowsCalculator&quot; was not found."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The process &quot;Microsoft.WindowsCalculator&quot; was not found."/>
+							</Node>
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The process &quot;Microsoft.WindowsCalculator&quot; was not found."/>
+							</Node>
+							<Node name="error5">
+								<Prp name="msg" type="S" value="The process &quot;Microsoft.WindowsCalculator&quot; was not found."/>
+							</Node>
+						</Node>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAyADQAOABCADgAMABDADUALQA4AEMARABEAC0ANABBADYAMwAtADkANQBEAEUALQBCADcAMgA0ADYAOAA0ADcARAA4ADAANQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="45894.8079630324"/>
+						<Prp name="name" type="S" value="Dividir"/>
+						<Prp name="duration" type="I" value="91066"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="durationwithoutchildren" type="I" value="91066"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Falha ao abrir a Calculadora: Janela da Calculadora não encontrada."/>
+							</Node>
+						</Node>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA4ADAAMQAxAEQAOQA4ADcALQBCADIAQwBDAC0ANAAzADkAOAAtAEEAMwAxADEALQAzAEUARQA3ADQAQwBFADQARABCADYAOAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="45894.8077035995"/>
+						<Prp name="name" type="S" value="Multiplicar"/>
+						<Prp name="duration" type="I" value="22406"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="durationwithoutchildren" type="I" value="22406"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Falha ao abrir a Calculadora: Janela da Calculadora não encontrada."/>
+							</Node>
+						</Node>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBEAEYAQQBGADMARQBEAEQALQAzADMANABFAC0ANAAyADgAMwAtADkANwBBADYALQA4ADYAMQBCADEAQwAyADgANABFAEEARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="45894.8071783102"/>
+						<Prp name="name" type="S" value="Somar"/>
+						<Prp name="duration" type="I" value="22749"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="durationwithoutchildren" type="I" value="22749"/>
+					</Node>
+				</Node>
+				<Prp name="starttime" type="D" value="45894.8071783102"/>
+				<Prp name="failedtests" type="I" value="4"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="TACalculadora"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="duration" type="I" value="158839"/>
+				<Prp name="loadtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="starttime" type="D" value="45894.8071782176"/>
+		<Prp name="name" type="S" value="CalculadoraBDD"/>
+		<Prp name="loadtests" type="I" value="0"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="key" type="S" value="{39F70138-88E4-471F-9040-FE82B3024FE7}"/>
+		<Prp name="host" type="S" value="DESKTOP-AE9ES02"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="user" type="S" value="lankt"/>
+		<Prp name="testname" type="S" value="TACalculadora"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="tests" type="I" value="4"/>
+		<Prp name="stop" type="D" value="45894.8090179398"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="failedtests" type="I" value="4"/>
+	</Node>
+</Nodes>

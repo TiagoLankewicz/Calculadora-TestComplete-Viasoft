@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="item 6">
+			<Prp name="stacktext" type="S" value="runAndAssert"/>
+			<Prp name="line no" type="I" value="122"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="item 17">
+			<Prp name="stacktext" type="S" value="EventsHooks_OnLogError"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 31">
+			<Prp name="stacktext" type="S" value="EventsHooks_OnLogError"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 3">
+			<Prp name="stacktext" type="S" value="EventsHooks_OnLogError"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="stack end" type="I" value="41"/>
+			<Prp name="stack beginning" type="I" value="39"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45894.8090165046"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="message" type="S" value="Falha ao abrir a Calculadora: Janela da Calculadora não encontrada."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="58"/>
+			<Prp name="picture" type="S" value="Picture8.png"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 35">
+			<Prp name="stacktext" type="S" value="EventsHooks_OnLogError"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="item 4">
+			<Prp name="stacktext" type="S" value="EventsHooks_OnLogError"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 37">
+			<Prp name="stacktext" type="S" value="runAndAssert"/>
+			<Prp name="line no" type="I" value="122"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="item 24">
+			<Prp name="stacktext" type="S" value="EventsHooks_OnLogError"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 36">
+			<Prp name="stacktext" type="S" value="openCalculator"/>
+			<Prp name="line no" type="I" value="58"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="stacktext" type="S" value="EventsHooks_OnLogError"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 25">
+			<Prp name="stacktext" type="S" value="EventsHooks_OnLogError"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 22">
+			<Prp name="stacktext" type="S" value="runAndAssert"/>
+			<Prp name="line no" type="I" value="122"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45894.8082239236"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="Projeto está com erro. Aplicação será encerrada."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 8">
+			<Prp name="stacktext" type="S" value="EventsHooks_OnStopTest"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 18">
+			<Prp name="stacktext" type="S" value="EventsHooks_OnLogError"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="stack end" type="I" value="34"/>
+			<Prp name="stack beginning" type="I" value="30"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45894.8090157407"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The process &quot;Microsoft.WindowsCalculator&quot; was not found."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="picture" type="S" value="Picture8.png"/>
+			<Prp name="remarks" type="S" value="Name = Microsoft.WindowsCalculator, Index = -1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 15">
+			<Prp name="stacktext" type="S" value="runAndAssert"/>
+			<Prp name="line no" type="I" value="122"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="item 13">
+			<Prp name="stacktext" type="S" value="EventsHooks_OnLogError"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 5">
+			<Prp name="stacktext" type="S" value="openCalculator"/>
+			<Prp name="line no" type="I" value="58"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45894.8083404051"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="Projeto está com erro. Aplicação será encerrada."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45894.8088963773"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="Projeto executado com sucesso. Aplicação será encerrada."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="stack end" type="I" value="42"/>
+			<Prp name="stack beginning" type="I" value="42"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45894.8090168982"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="picture" type="S" value="Picture8.png"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop current item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="stacktext" type="S" value="EventsHooks_OnLogError"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 19">
+			<Prp name="stacktext" type="S" value="EventsHooks_OnLogError"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45894.8086921412"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="Projeto está com erro. Aplicação será encerrada."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 28">
+			<Prp name="stacktext" type="S" value="runAndAssert"/>
+			<Prp name="line no" type="I" value="122"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="item 20">
+			<Prp name="stacktext" type="S" value="EventsHooks_OnLogError"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="stack end" type="I" value="23"/>
+			<Prp name="stack beginning" type="I" value="17"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45894.8090149884"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The process &quot;Microsoft.WindowsCalculator&quot; was not found."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="picture" type="S" value="Picture8.png"/>
+			<Prp name="remarks" type="S" value="Name = Microsoft.WindowsCalculator, Index = -1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 12">
+			<Prp name="stacktext" type="S" value="EventsHooks_OnLogError"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{7421B93C-A641-4F45-8C6D-C938EA45BD31}"/>
+			<Prp name="unit 1" type="S" value="{22CA3D86-D61F-408E-AA3B-FC7799C3D566}"/>
+		</Node>
+		<Node name="item 14">
+			<Prp name="stacktext" type="S" value="openCalculator"/>
+			<Prp name="line no" type="I" value="58"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="item 34">
+			<Prp name="stacktext" type="S" value="dividir"/>
+			<Prp name="line no" type="I" value="161"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="item 41">
+			<Prp name="stacktext" type="S" value="dividir"/>
+			<Prp name="line no" type="I" value="161"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="stacktext" type="S" value="EventsHooks_OnLogError"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 42">
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="item 32">
+			<Prp name="stacktext" type="S" value="openCalculator"/>
+			<Prp name="line no" type="I" value="58"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="item 26">
+			<Prp name="stacktext" type="S" value="EventsHooks_OnLogError"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45894.8088090278"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="Projeto está com erro. Aplicação será encerrada."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 39">
+			<Prp name="stacktext" type="S" value="openCalculator"/>
+			<Prp name="line no" type="I" value="58"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="item 29">
+			<Prp name="stacktext" type="S" value="dividir"/>
+			<Prp name="line no" type="I" value="161"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="item 11">
+			<Prp name="stacktext" type="S" value="EventsHooks_OnLogError"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45894.8085755093"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="Projeto está com erro. Aplicação será encerrada."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45894.8084576157"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="Projeto está com erro. Aplicação será encerrada."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 10">
+			<Prp name="stacktext" type="S" value="EventsHooks_OnLogError"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45894.8079778935"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="message" type="S" value="The application &quot;C:\Windows\System32\calc.exe&quot; started."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="The process ID is 2380."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 40">
+			<Prp name="stacktext" type="S" value="runAndAssert"/>
+			<Prp name="line no" type="I" value="122"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45894.8079664699"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The application &quot;C:\Windows\System32\calc.exe&quot; started."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="The process ID is 23716."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 30">
+			<Prp name="stacktext" type="S" value="EventsHooks_OnLogError"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="stack end" type="I" value="7"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45894.8088961111"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The process &quot;Microsoft.WindowsCalculator&quot; was not found."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="picture" type="S" value="Picture7.png"/>
+			<Prp name="remarks" type="S" value="Name = Microsoft.WindowsCalculator, Index = -1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 21">
+			<Prp name="stacktext" type="S" value="openCalculator"/>
+			<Prp name="line no" type="I" value="58"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="item 16">
+			<Prp name="stacktext" type="S" value="dividir"/>
+			<Prp name="line no" type="I" value="161"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="stack end" type="I" value="29"/>
+			<Prp name="stack beginning" type="I" value="24"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45894.8090153472"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The process &quot;Microsoft.WindowsCalculator&quot; was not found."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="picture" type="S" value="Picture8.png"/>
+			<Prp name="remarks" type="S" value="Name = Microsoft.WindowsCalculator, Index = -1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="stack end" type="I" value="16"/>
+			<Prp name="stack beginning" type="I" value="8"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45894.8090142824"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The process &quot;Microsoft.WindowsCalculator&quot; was not found."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="picture" type="S" value="Picture8.png"/>
+			<Prp name="remarks" type="S" value="Name = Microsoft.WindowsCalculator, Index = -1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 9">
+			<Prp name="stacktext" type="S" value="EventsHooks_OnLogError"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="stack end" type="I" value="38"/>
+			<Prp name="stack beginning" type="I" value="35"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45894.8090161227"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The process &quot;Microsoft.WindowsCalculator&quot; was not found."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="picture" type="S" value="Picture8.png"/>
+			<Prp name="remarks" type="S" value="Name = Microsoft.WindowsCalculator, Index = -1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 7">
+			<Prp name="stacktext" type="S" value="dividir"/>
+			<Prp name="line no" type="I" value="161"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="item 33">
+			<Prp name="stacktext" type="S" value="runAndAssert"/>
+			<Prp name="line no" type="I" value="122"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45894.8079633681"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="Projeto será iniciado."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="item 38">
+			<Prp name="stacktext" type="S" value="dividir"/>
+			<Prp name="line no" type="I" value="161"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="item 27">
+			<Prp name="stacktext" type="S" value="openCalculator"/>
+			<Prp name="line no" type="I" value="58"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="item 23">
+			<Prp name="stacktext" type="S" value="dividir"/>
+			<Prp name="line no" type="I" value="161"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45894.8058197801"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8AC66716-FF41-4F1D-A48B-8782235761C8}"/>
+				<Prp name="nameofroot" type="S" value="TACalculadora"/>
+				<Prp name="relpath" type="S" value="25_08_2025_19_20_22_829\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45894.8071781366"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{DAC6E569-DFD8-4E9B-85BC-2E35BA475157}"/>
+				<Prp name="nameofroot" type="S" value="TACalculadora"/>
+				<Prp name="relpath" type="S" value="25_08_2025_19_22_20_191\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45894.8091121412"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C55F81DA-A38A-4947-AD46-B0A0F215121F}"/>
+				<Prp name="nameofroot" type="S" value="TACalculadora"/>
+				<Prp name="relpath" type="S" value="25_08_2025_19_25_07_289\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45895.5153620486"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{421EA0BD-3270-4FFB-B3F9-D4B1E41ECEF8}"/>
+				<Prp name="nameofroot" type="S" value="TACalculadora"/>
+				<Prp name="relpath" type="S" value="26_08_2025_12_22_07_281\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>
