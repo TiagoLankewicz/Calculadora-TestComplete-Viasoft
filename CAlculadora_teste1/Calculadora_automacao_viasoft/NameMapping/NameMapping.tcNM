@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{54886101-1A35-48DD-B157-FDFCE2037CE7}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="explorer" Key="{9B5A7AC2-D14E-443A-B7C4-A304EC3779D3}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndXamlExplorerHostIslandWindow" Key="{8E50198A-397C-458E-887D-696C16582DFB}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="XamlExplorerHostIslandWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="2" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{00913DED-2DEA-4652-A1F8-1D99BC623053}">
+										<TypeInfo Item0="{19817474-31B2-4C9E-9A1B-D1CD374A1218}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="explorer" Owner="{9B5A7AC2-D14E-443A-B7C4-A304EC3779D3}">
+			<Child Name="wndXamlExplorerHostIslandWindow" Owner="{8E50198A-397C-458E-887D-696C16582DFB}">
+				<Child Name="DesktopWindowXamlSource" Owner="{00913DED-2DEA-4652-A1F8-1D99BC623053}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

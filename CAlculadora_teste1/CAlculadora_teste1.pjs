@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{E25B713F-6888-4CCB-9589-E2E65C03A942}">
+	<children>
+		<child name="CAlculadora_teste1" key="{B542C6A7-70C8-4CCB-A957-33FA36E3178E}" path="CAlculadora_teste1\CAlculadora_teste1.mds" />
+	</children>
+	<testItems key="{7AE95963-9D8E-4D8A-A171-6A8B0666EA7F}">
+		<children>
+			<testItem key="{B542C6A7-70C8-4CCB-A957-33FA36E3178E}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{7EC9FBDC-3D44-49E5-B395-4639C7E7AF73}" />
+	<analysis key="{197E1600-EB28-4109-9E20-949867ED2438}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

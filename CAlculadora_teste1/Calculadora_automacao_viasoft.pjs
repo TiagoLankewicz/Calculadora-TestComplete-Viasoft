@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{BBF01A99-693B-47E7-BA9D-805AFCCEA6EF}">
+	<children>
+		<child name="Calculadora_automacao_viasoft" key="{9E24BA5D-5FC1-4CE2-9E2E-5D7383FD6301}" path="Calculadora_automacao_viasoft\Calculadora_automacao_viasoft.mds" />
+	</children>
+	<testItems key="{D125E0EE-7C31-40A9-91F2-7F2EDED17DC0}">
+		<children>
+			<testItem key="{9E24BA5D-5FC1-4CE2-9E2E-5D7383FD6301}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{1725D784-1026-4D1E-9400-AAE16C3B9CA4}" />
+	<analysis key="{21A99D73-D6FC-4952-A837-9ED848BF8FEA}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>
